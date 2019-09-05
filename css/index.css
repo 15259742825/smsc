@@ -1,63 +1,38 @@
-a{
-  text-decoration: none;
+*{margin:0;padding: 0 !important}
+
+/* 登录 */
+.bg_dark{
+  background-color: #272727;
 }
 a:hover{
   text-decoration: none;
 }
-*{margin:0;padding: 0 }
-ul{
-  list-style: none;
-}
-
-/* 登录 */
-.loginBar{
-  width: 1366px;
-  height: 46px;
-  background-color: #272727;
-  margin:0 auto;
-}
-.loginBar a{
-  color:#999;
-  font-size: 12px;
-  line-height: 46px;
-}
-.login_1{
-  padding-left:50px; 
-}
-.login_2{
-  padding-right: 20px;
-}
-
-.l1{
-  display: flex;
-  float: left;
-}
-.l2{
-  display: flex;
-  float: right;
-  padding-right:50px; 
-}
-/* 头部 */
-.header{
-  margin:0 auto;
-  width: 1366px;
-  height: 98px;
-  background: #0a0a0a;
-  display: flex
-}
-.header ul{
-  margin-left:50px; 
-}
-.header li{
+.login{
   color: rgb(141, 144, 149);
+  font-size: 12px;
   font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
-  font-style: normal;
-  float: left;
-  line-height: 98px;
-  padding-left: 20px;
-} 
-.header img{
-  padding-top:25px;
-  padding-left:50px;  
-  width: 236px;
+  line-height: 8px;
+}
+.bg_header{
+  background: #0a0a0a
+}
+.login-a{
+  font-size:15px; 
+  padding-top: 40px !important;
+}
+.search{
+  padding-top: 26px !important;
+}
+.search-item{
+  background:transparent;
+  border:1px solid #ccc;
+  font-size:14px;
+  padding-left: 15px !important;
+  font-family:微软雅黑;
+  height:37px;
+  border-top: 1px solid rgba(55,55,55,1) !important;
+  border-bottom: 1px solid rgba(55,55,55,1) !important;
+  border-left: 1px solid rgba(55,55,55,1) !important;
+  border-right: 1px solid rgba(55,55,55,1) !important;
+  color: #fff;
 }
