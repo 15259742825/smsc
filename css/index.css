@@ -48,3 +48,11 @@ a:hover{
 .bg_blue{
   background: #00eef3;
 }
+.font_12{
+  font-size: 12px;
+  color: #000;
+}
+/* 推荐 */
+.w_20{
+  width:20%;
+}
