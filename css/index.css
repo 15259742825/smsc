@@ -56,7 +56,7 @@ a:hover{
 .w_20{
   width:19%;
 }
-/* 精品推荐字体 */
+/* 精品推荐 */
 .bt{
   font-size: 15px;
   color: #000;
@@ -71,6 +71,10 @@ a:hover{
 }
 .bg_gray{
   background-color: #f2f2f2;
+}
+.jpimg:hover{
+  transition: all 0.3s ease-out 0s;
+  transform: scale(1.1);
 }
 /* 游戏本*/
 .price{
@@ -92,4 +96,9 @@ transform: scale(1.1);
 /* 热评中心 */
 .w_20{
   width: 18%;
+}
+/* 评测中心 */
+
+.w_25{
+  width: 23.5%;
 }
