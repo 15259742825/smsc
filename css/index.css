@@ -7,11 +7,13 @@
 a:hover{
   text-decoration: none;
 }
+.center{
+  line-height: 50px;
+}
 .login{
   color: rgb(141, 144, 149);
   font-size: 12px;
   font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
-  line-height: 8px;
 }
 .bg_header{
   background: #0a0a0a;
