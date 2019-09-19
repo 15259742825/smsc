@@ -1,0 +1,30 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: ">";
+}
+.t1{
+  color: #616161;
+  font-size: 14px;
+}
+.t2{
+  color: #333333;
+    font-size: 14px;
+}
+._nav{
+  padding-top:10px !important; 
+  padding-bottom:10px !important; 
+  background: #F5F5F5;
+}
+
+.tc{
+  font-size: 14px;
+  font-weight: normal;
+  color: #555555;
+}
+input{
+  width:17px;
+  height: 17px;
+  vertical-align: text-bottom; 
+}
