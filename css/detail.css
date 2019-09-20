@@ -28,3 +28,35 @@ input{
   height: 17px;
   vertical-align: text-bottom; 
 }
+.w_20{
+  width: 20%;
+}
+._bh{
+  font-size: 14px;
+    font-weight: normal;
+    color: rgb(119, 119, 119);
+    font-family: 微软雅黑;
+}
+._bh1{
+  font-size: 14px;
+    font-weight: normal;
+    color: rgb(221, 99, 99);
+    font-family: 微软雅黑;
+}
+.bh{
+  border-top:1px dashed #DDD; 
+}
+.nav-link {
+  padding: 15px !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+}
+
+.bh0{
+  border-top:1px solid #DDD;
+}
+.ms1{
+  font-size: 24px;
+}

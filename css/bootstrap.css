@@ -3862,22 +3862,8 @@ tbody.collapse.show {
   color: #6c757d;
 }
 
-.nav-tabs {
-  border-bottom: 1px solid #dee2e6;
-}
-
-.nav-tabs .nav-item {
-  margin-bottom: -1px;
-}
-
 .nav-tabs .nav-link {
-  border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-top: 5px solid transparent;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -8974,7 +8960,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-/************intel ×Ô¶¨ÒåµÄÑùÊ½************/
+/************intel ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½************/
 .my-main {
   background: #0062a9;
   color: #fff;
