@@ -79,6 +79,16 @@ input{
 
 
 
+.bt{
+  font-size: 14px;
+    
+    height: 45px!important;
+    width: 38px!important;
+}
+.inp{
+  height: 45px!important;
+    width: 38px!important;
+}
 
 
 
@@ -87,4 +97,11 @@ input{
 
 
 
-/* 放大镜 */
+
+
+
+
+
+
+
+

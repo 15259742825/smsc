@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/detail.css">
+   
 </head>
 <body>
-<div class="container" >
+<div class="container">
   <!-- 头部 -->
   <div class="row m-0 bg_dark ">
       <div class="col-6 d-flex ">
@@ -57,10 +58,14 @@
           </li>
       </ul>
     </div>
-   <div class="row m-0">
-     <div class="col-6 pr-5">
-       <img class="w-100" src="img/detail/detail.jpg" alt="">
-       <div class="row m-0 pt-3">
+
+    
+  
+    <!-- 详情 -->
+<div class="row">
+  <div class="col-6">
+    <div><img class="w-100" src="img/detail/detail.jpg" alt=""></div>
+      <div class="row m-0 pt-3">
          <div class="w_20"> <img class="w-100" src="img/detail/01.jpg" alt=""></div>
          <div class="w_20"> <img class="w-100" src="img/detail/02.jpg" alt=""></div>
          <div class="w_20"> <img class="w-100" src="img/detail/03.jpg" alt=""></div>
@@ -68,8 +73,8 @@
          <div class="w_20"> <img class="w-100" src="img/detail/05.jpg" alt=""></div>
   
        </div>
-     </div>
-     <div class="col-6">
+       </div>
+     <div class="col-6" >
        <div style="
        font-size: 26px;
        font-weight: bold;
@@ -122,11 +127,9 @@
               <button class="btn btn-primary w-100 pt-2 pb-2">加入购物车</button>
           </div>
         </div>
-          <div class="col-5 row">
-            <button  class="h-100 col-4">-</button>
-            <input class="col-4 h-100 pl-4" type="text" value="1">
-            <button class="h-100 col-4">+</button>
-          </div>
+         <button id="b1" class="bt">-</button>
+         <span class="inp" id="inp">1</span>
+         <button id="b2" class="bt">+</button>
       </div>
       <div class="mt-4 mb-5">
         <div class="bh"> 
@@ -140,8 +143,15 @@
         </div>
       </div>
      </div>
-   </div>
+
+
+</div>
+
+
+
+
 <!-- 导航栏 -->
+
    <ul class="nav nav-tabs bh0">
       <li class="nav-item ">
           <a  data-toggle="tab" href="#tab1" class="nav-link">描述</a>
@@ -225,15 +235,13 @@
     color: rgb(102, 102, 102);
     font-family: 宋体;">只有买过此商品的客户登录后才能发表评论</p>
         </div>
-      </div>
   </div>
-     
-
-
 </div>
+</div>
+<script src="js/detail.js"></script>
 
-  <iframe class="my_footer " src="footer.html" frameborder="0" scrolling="no"></iframe>
-
+  <iframe  class="my_footer " src="footer.html" frameborder="0" scrolling="no"></iframe>
+ 
 
 </body>
 
