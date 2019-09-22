@@ -13,7 +13,9 @@ a:hover{
   font-weight: normal;
   font-style: normal;
   color: #000000;
-  padding: 0 0 15px 0;
+}
+button{
+  width:328px !important;
 }
 ._input{
   padding-top: 5px !important;
@@ -27,7 +29,6 @@ a:hover{
   box-sizing: border-box;
   box-shadow: inset 0 -1px 4px #eee!important;
   padding-left:8px; 
-  width: 328px;
   height: 44px !important;
 }
 .check{
@@ -41,4 +42,10 @@ a:hover{
   font-size: 14px ;
   color: #888;
 
+}
+
+
+.w-1{
+  position: relative;
+  width: 50px;
 }

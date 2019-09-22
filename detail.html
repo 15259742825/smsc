@@ -8,6 +8,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/detail.css">
@@ -89,35 +90,33 @@
       font-family: 微软雅黑;">
         i5-8300H/Windows 10 家庭中文版/15.6英寸/8G/2T+128G SSD/GTX 1050Ti 4G独显/黑色
       </p>
-      <p style="font-size: 26px;
-      font-weight: bold;
-      color: #dd3333;
-      font-family: tahoma;
-      line-height: 26px;">￥7599</p>
+      <p class="_price">￥7599</p>
       <div>
         <h3 style="font-size: 15px;
         font-weight: bold;
         color: #555555;">搭配套餐</h3>
         <div class="tc">
           <p class="m-0">
-          <input id="in1" type="checkbox">
-          <label for="in1">M301炫彩鼠标原价159元 (¥99)</label>
+          <input  id="in1" type="checkbox">
+          <label  for="in1">
+           M301炫彩鼠标原价159元 (¥99)</span> 
+          </label>
           </p>
           <p class="m-0">
           <input id="in2" type="checkbox">
-          <label for="in2">M301炫彩鼠标原价159元 (¥99)</label>
+          <label for="in2"> K70红轴机械键盘原价290(¥240)</label>
           </p>
           <p class="m-0">
           <input id="in3" type="checkbox">
-          <label for="in3">M301炫彩鼠标原价159元 (¥99)</label>
+          <label for="in3">K80樱桃茶轴键盘原价399(¥99)</label>
           </p>
           <p class="m-0">
           <input id="in4" type="checkbox">
-          <label for="in4">M301炫彩鼠标原价159元 (¥99)</label>
+          <label for="in4">27英寸电竞显示器原价1499元(¥99)</label>
           </p>
           <p class="m-0">
           <input id="in5" type="checkbox">
-          <label for="in5">沙漠风暴H71耳机黑色原价499 (¥349)</label>
+          <label for="in5">沙漠风暴H71耳机黑色原价349(¥99)</label>
           </p>
         </div>
       </div>
@@ -128,8 +127,14 @@
           </div>
         </div>
          <button id="b1" class="bt">-</button>
-         <span class="inp" id="inp">1</span>
+         <input id="inp" type="text" value="1" class="bt text-center">
          <button id="b2" class="bt">+</button>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-5 zj">总价：</div>
+        <span class="_price">￥</span><div class="col-5 _price" id="_zj">7599</div>
+        <div class="col-2"></div>
       </div>
       <div class="mt-4 mb-5">
         <div class="bh"> 

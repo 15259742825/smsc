@@ -23,11 +23,7 @@
   font-weight: normal;
   color: #555555;
 }
-input{
-  width:17px;
-  height: 17px;
-  vertical-align: text-bottom; 
-}
+
 .w_20{
   width: 20%;
 }
@@ -89,8 +85,18 @@ input{
   height: 45px!important;
     width: 38px!important;
 }
-
-
+.zj{
+  font-size: 17px;
+  font-weight: normal;
+  color: #555555;
+}
+._price{
+  font-size: 26px;
+      font-weight: bold;
+      color: #dd3333;
+      font-family: tahoma;
+      line-height: 26px;
+}
 
 
 
