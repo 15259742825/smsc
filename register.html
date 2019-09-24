@@ -10,10 +10,12 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/login.css">
     <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <script src="js/router.js"></script>
     
 </head>
 <body style="background: #F5F5F5">
-<div class="container ">
+<div class="container " id="app">
   <div >
   <div class="text-center"><img  src="img/login/logo.png" alt="">
   </div>
@@ -50,7 +52,7 @@
 
 <div class="row m-0 pt-3">
   <div class="col-4 px-0"></div>
-  <div class="col-4 px-0 row m-0" id="app">
+  <div class="col-4 px-0 row m-0" >
     <div class="col-10 p-0"><input placeholder="请输入手机号" class="_input w-100" ></div>
     <div class="col-2 p-0">
       <!-- <button class="w-100">获取</button> -->
@@ -72,7 +74,9 @@
 <div class="row m-0 pt-2">
   <div class="col-4 px-0"></div>
   <div class="col-4 px-0">
-    <button id="zc"  class="btn btn-primary w-100">注册 </button>
+    <button id="zc"  @click="zc" class="btn btn-primary w-100">
+       注册
+    </button>
   </div>
   <div class="col-4 px-0"></div>
 </div>
