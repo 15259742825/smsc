@@ -1,0 +1,48 @@
+
+.zt{
+  color: rgb(141, 144, 149);
+  font-size: 16px;
+}
+.hr{
+  border-bottom: 1px solid #9e9e9e;
+}
+.t1{
+  color: rgb(141, 144, 149);
+  font-size: 15.5px;
+  
+}
+.t2{
+  color: rgb(141, 144, 149);
+  font-size: 13px;
+  
+}
+.w_35{
+  width: 35%;
+}
+.phone{
+    font-family: arial;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    color: #00eff2;
+    display: block;
+    vertical-align: bottom;
+}
+.day{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: #999999;
+}
+.lx{
+  font-size: 14px;
+  border-width: 1px;
+  border-color: rgb(0, 239, 242);
+  background-color: transparent;
+  color: rgb(0, 239, 242);
+}
+.lx:hover{
+  background: #00eff2;
+  color: #000;
+
+}

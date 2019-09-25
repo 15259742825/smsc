@@ -1,0 +1,51 @@
+
+a:hover{
+  text-decoration: none;
+}
+
+._login{
+  width:328px;
+  margin: 0 auto;
+}
+.title{
+  font-family: 微软雅黑;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+button{
+  width:328px !important;
+}
+._input{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  height: auto !important;
+  font-size: 15px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ddd !important;
+  color: #262626 !important;
+  border-radius: 3px!important;
+  box-sizing: border-box;
+  box-shadow: inset 0 -1px 4px #eee!important;
+  padding-left:8px; 
+  height: 44px !important;
+}
+.check{
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+
+}
+
+.wz{ 
+  font-size: 14px ;
+  color: #888;
+
+}
+
+
+.w-1{
+  position: relative;
+  width: 50px;
+}
