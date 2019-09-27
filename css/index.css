@@ -94,9 +94,7 @@ a:hover{
 .bk:hover{
 transform: scale(1.1);
 }
-.w_29{
-  width: 31.2%;
-}
+
 /* 热评中心 */
 .w_20{
   width: 18%;
@@ -107,4 +105,7 @@ transform: scale(1.1);
   width: 23.5%;
 }
 
+@media screen and (max-width:480px){
+  
+ }
 
