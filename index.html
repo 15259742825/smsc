@@ -14,12 +14,12 @@
 <body>
 <div class="container" >
   <!-- 头部 -->
-  <div class="row m-0 bg_dark hd">
+  <div class="row m-0 bg_dark ">
       <div class="col-6 d-flex ">
-        <p class="m-0 login "><img src="img/time.png" alt=""> 在线时间 08:30~21:30</p>
-        <p class="m-0 login pl-4">欢迎访问数码家电在线商城模板！</p>
+        <p class="m-0 login hd"><img src="img/time.png" alt=""> 在线时间 08:30~21:30</p>
+        <p class="m-0 login pl-4 hd">欢迎访问数码家电在线商城模板！</p>
       </div>
-      <div class=" col-6 row zc">
+      <div class=" col-lg-6 col-md-12 row zc">
         <div class="col-10"></div>
         <div class="col-2">
              
@@ -31,10 +31,10 @@
         </div>
       </div>
     </div>
-      <div class="row m-0    mx-0 bg_header">
-        <div class="col-3"><img class="w-100 m-3" src="img/logo.png" alt=""></div>
-        <div class="col-6" style="padding-top: 35px !important">
-          <ul class="header list-unstyled d-flex header w-100 justify-content-around pl-5">
+      <!-- <div class="row m-0    mx-0 bg_header">
+        <div class="col-3 hd"><img class="w-100 m-3" src="img/logo.png" alt=""></div>
+        <div class="col-lg-6 col-md-12" style="padding-top: 35px !important">
+          <ul class="header list-unstyled d-flex w-100 justify-content-around pl-lg-5">
             <li><a style="color: rgb(141, 144, 149);" class="login login-a" href="">首页</a></li>
             <li><a style="color: rgb(141, 144, 149);" class="login login-a" href="">笔记本</a></li>
             <li><a style="color: rgb(141, 144, 149);" class="login login-a" href="">台式机</a></li>
@@ -43,16 +43,55 @@
             <li><a style="color: rgb(141, 144, 149);" class="login login-a" href="">售后服务</a></li>
           </ul>
         </div>
-        <div class="col-3 pl-5 search text-right pr-2">
+        <div class="col-md-12 col-lg-3 pl-lg-5  search text-center pb-md-4 pb-sm-4 pb-xs-4 pr-2">
           <input class="search-item" type="text" placeholder="游戏笔记本">
         </div>
-      </div> 
-
+      </div>  -->
+      <div class="navbar navbar-expand-md  navbar-dark  bg_header">
+          <!-- 1.最前面不折叠不隐藏的菜单-->
+          
+          <!-- 2.折叠之后出现的按钮，小屏显示，大屏不显示-->
+          <img class="logoimg w-25"  src="img/logo.png" alt="">.
+          <div class="pt-3 pb-3">
+           <button style="border: none" data-toggle="collapse" data-target="#content"  class="navbar-toggler ">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+        </div>
+        
+        
+          <!-- 3.折叠的导航，小屏折叠，大屏横向-->
+          <div id="content" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                  <li class="nav-item pl-lg-5 pl-md-2">
+                      <a href="" class="nav-link">首页</a>
+                  </li>
+                  <li class="nav-item pl-lg-4 pl-md-2">
+                      <a href="" class="nav-link">笔记本</a>
+                  </li>
+                  <li class="nav-item pl-lg-4 pl-md-2">
+                      <a href="" class="nav-link">台式机</a>
+                  </li>
+                  <li class="nav-item pl-lg-4 pl-md-2">
+                      <a href="" class="nav-link">外设系列</a>
+                  </li>
+                  <li class="nav-item pl-lg-4 pl-md-2">
+                      <a href="" class="nav-link">评测中心</a>
+                  </li>
+                  <li class="nav-item pl-lg-4 pl-md-2">
+                      <a href="" class="nav-link">售后服务</a>
+                  </li>
+              </ul>
+              <div class="pl-lg-5 pl-md-2"><input class="search-item" type="text" placeholder="游戏笔记本"></div>
+          </div>
+          
+              
+      </div>
       <!-- 0 -->
       
   <!-- 中部导航轮播 -->
-   <div class="row hd   mx-0 header hd">
-     <div class="col-2 bg_nav ">
+   <div class="row    mx-0 header">
+     <div class="col-2 bg_nav  hd">
        
          <ul class="m-0 list-unstyled ">
            <li class="pt-3 pb-3 navhover" style="border-top: 1px solid #3a3a3a;"><a style="color:#cccccc ;font-family:微软雅黑 " class="pl-4" href="">游戏笔记本</a></li>
@@ -67,15 +106,15 @@
       
      </div>
      <!-- 轮播 -->
-     <div class="col-10">
+     <div class="col-lg-10 col-md-12 col-sm-12 ">
       <div id="demo" class="carousel" data-ride="carousel">
         <!-- 轮播图片 -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/lunbo1.png" style="height: 456px;">
+            <img src="img/lunbo1.png " >
           </div>
           <div class="carousel-item">
-            <img src="img/lunbo2.png " style="height: 456px;">
+            <img src="img/lunbo2.png ">
           </div>
         </div>
       </div>

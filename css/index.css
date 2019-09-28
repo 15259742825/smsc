@@ -41,6 +41,7 @@ a:hover{
   border-right: 1px solid rgba(55,55,55,1) !important;
   color: #fff;
 }
+
 /* 中部导航 */
 .bg_nav{
   background: #252525;
@@ -109,4 +110,7 @@ transform: scale(1.1);
   .hd{
       display: none;
   }
+  .carousel-inner img{width: 100%}
+  
+  
 }
