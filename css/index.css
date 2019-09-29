@@ -32,7 +32,7 @@ a:hover{
   background:transparent;
   border:1px solid #ccc;
   font-size:14px;
-  padding-left: 15px !important;
+  padding-left: 5px !important;
   font-family:微软雅黑;
   height:37px;
   border-top: 1px solid rgba(55,55,55,1) !important;
@@ -40,6 +40,7 @@ a:hover{
   border-left: 1px solid rgba(55,55,55,1) !important;
   border-right: 1px solid rgba(55,55,55,1) !important;
   color: #fff;
+  width: 130px;
 }
 
 /* 中部导航 */
@@ -57,10 +58,10 @@ a:hover{
   font-size: 12px;
   color: #000;
 }
+
+
 /* 推荐 */
-.w_20{
-  width:19%;
-}
+
 /* 精品推荐 */
 .bt{
   font-size: 15px;
@@ -77,10 +78,7 @@ a:hover{
 .bg_gray{
   background-color: #f2f2f2;
 }
-.jpimg:hover{
-  transition: all 0.3s ease-out 0s;
-  transform: scale(1.1);
-}
+
 /* 游戏本*/
 .price{
   color: #00eef3;
@@ -110,10 +108,21 @@ transform: scale(1.1);
   .hd{
       display: none;
   }
-  .carousel-inner img{width: 100%}
+  .carousel-inner img{width: 100%};
+  .jpimg{
+    width: 100%
+  }
+ .w_20{
+   width: 100%;
+   margin-top:20px; 
+  }
+ 
 }
 @media screen and (min-width: 990px) {
  .sea{
-   padding-left: 50px;
+   position: absolute;
+   right: 10px;
+   top:5px;
  }
+
 }
