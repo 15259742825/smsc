@@ -17,6 +17,9 @@ a:hover{
 button{
   width:328px !important;
 }
+[v-cloak]{
+  display: none;
+}
 ._input{
   padding-top: 5px !important;
   padding-bottom: 5px !important;

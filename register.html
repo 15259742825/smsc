@@ -65,7 +65,7 @@
     <div class="col-10 p-0"><input placeholder="请输入收到的验证码" class="_input w-100" ></div>
     <div class="col-2 p-0">
       <!-- <button class="w-100">获取</button> -->
-      <button id="yzm"  class="w-100" :disabled="timer!=60" @click="start">{{timer==60?"获取":`${timer}`}}</a>
+      <button v-cloak id="yzm"  class="w-100" :disabled="timer!=60" @click="start">{{timer==60?"获取":`${timer}`}}</a>
     </div>
   </div>
 </div>

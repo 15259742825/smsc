@@ -1,3 +1,4 @@
+(function(){
 
 // 验证码获取
 var vm=new Vue({
@@ -34,3 +35,4 @@ var vm=new Vue({
     }
   }
 })
+})();
